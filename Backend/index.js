@@ -12,8 +12,7 @@ app.use(express.json());
 app.use(cors({
     origin:"https://scheduliadaily.netlify.app",
     methods:["GET","POST","PUT","DELETE"]
-}
-            ));
+}));
 
 
 app.post('/addNote',async(req,res)=>{
