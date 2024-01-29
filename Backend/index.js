@@ -3,7 +3,6 @@ const express  = require('express');
 const cors = require('cors');
 const notes = require("./Models/Notes");
 const note = require("./Models/Notes");
-const { useState } = require("react");
 
 
 const app = express();
