@@ -10,7 +10,9 @@ const port = 3001;
 main()
 app.use(express.json());
 app.use(cors({
-    origin:"https://scheduliadaily.netlify.app"
+    origin:"https://scheduliadaily.netlify.app",
+    methods:["GET","POST","PUT","DELETE"]
+        
             ));
 
 
